@@ -4,33 +4,130 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-header {
-    border-bottom: 2px solid black;
-    background-color: #FFDBAA;
-    padding: 15px 15px 15px 15px;
-    margin: 0 1.5% 24px 1.5%;
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
+    display: inline;
+    padding: 10px;
+    background-color: #805215;
+    margin: 10px;
+    
 
-    float: right;
-    padding: 15px 15px 15px 15px;
-    list-style-type: none;
 }
-
-section {
-    border: 2px solid black;
-    float: left;
-    width: 30%;
-    margin: 0 1.5% 24px 1.5%;
-}
-
-footer {
-    border: 2px solid black;
-}
-
 
 button{
-    background-color:#805215 ;
+    background-color: #805215;
+    color: white;
+    border: none;
+    font-weight: bold;
+
+}
+
+header{
+    border-bottom: 1px solid black;
+    background-color: #FFDBAA;
+
+}
+
+h1{
+    display: inline-block; 
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:  #553100;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+
+}
+
+nav {
+  margin-left: 150px;
+  color: #f2f2f2;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block; 
+  color: #805215;
+}
+
+
+ul{
+    display: inline;
+    list-style: none;
+    color: #805215;
+    margin: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+main{
+    background-color: #D4A76A;
+    height:1000px;
+    text-align: center;
+
+}
+
+section{
+    float: left;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 11px 0px #050505; 
+    box-shadow: 0px 0px 11px 0px #050505;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer{
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 11px 0px #050505; 
+    box-shadow: 0px 0px 11px 0px #050505;
+
+}
+
+p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#fbutton{
+    width:95%;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.page{
+    border: 1px solid black;
+    padding: 10px;
+    width:90%;
 }
